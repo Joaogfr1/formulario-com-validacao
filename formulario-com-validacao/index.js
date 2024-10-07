@@ -15,20 +15,6 @@ Inputs.forEach(caixa=>{
     })
 })
 
-
-// function confirmacao(botao){
-//     botao.addEventListener('change', () =>{
-//         if(input.value ==""){
-//             input.classList.add("erro")
-//         }else{
-//             input.classList.remove("erro")
-//         }
-//     })
-
-//     console.log(confirmacao)
-// }
-
-
 botao.addEventListener('click', (event) =>{
     event.preventDefault()
 

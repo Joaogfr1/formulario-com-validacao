@@ -1,0 +1,436 @@
+@media (max-width: 1920px){
+    .informacoes{
+        margin: 0px 60px 0px 220px;
+        color: #ffffff;
+    }
+    
+    h1{
+        font-size: 40px;
+        font-weight: 900;
+        margin-bottom: 11px;
+    }
+    
+    .subtitulo{
+        font-size: 28px;
+        font-weight: 400;
+    }
+    
+    .formulario{
+        background-color: #ffffff;
+        min-width: 680px;
+        height: 756px;
+        margin-right: 100px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    
+    .padrao{
+        font-size: 15px;
+        width: 600px;
+        height: 45px;
+        border-radius: 5px;
+        margin-top: 30px;
+        padding: 8px;
+        border: 2px solid black;
+    }
+    
+    .mensagem{
+        width: 600px;
+        height: 270px;
+        border: 2px solid black;
+        border-radius: 5px;
+        margin-top: 30px;
+        padding: 8px;
+        resize: none;
+        font-size: 15px;
+    }
+    
+    .orientacao{
+        padding: 10px 0px 20px 30px;
+        font-size: 16px;
+    }
+    
+    .enviar{
+        position: absolute;
+        bottom: 50px;
+        width: 600px;
+        height: 60px;
+        border-radius: 5px;
+        border: none;
+        background-color: #3CCC87;
+        color: #ffffff;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    
+    
+    .erro{
+        color: red;
+        font-size: 12px;
+        font-weight: 400;
+        margin-left: -500px;    
+        display: none;
+    }
+    
+    .irregular{
+        border-color: red;
+    }
+    
+    .regular{
+        border-color: #3CCC87;
+    }
+}
+
+
+@media (max-width: 1024px){
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .informacoes{
+        margin: auto;
+    }
+
+    h1{
+        font-size: 25px;
+        font-weight: 900;
+        margin: 15px;
+    }
+    
+    .subtitulo{
+        font-size: 18px;
+        font-weight: 400;
+        margin: 15px;
+    }
+
+    .formulario{
+        margin: auto;
+        padding-bottom: 30px;
+        min-width: 580px;
+        height: 656px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+    }
+
+    .padrao{
+        font-size: 15px;
+        width: 500px;
+        height: 45px;
+        padding: 8px;
+    }
+
+    .mensagem{
+        width: 500px;
+        height: 200px;
+        border-radius: 5px;
+        margin-top: 30px;
+        padding: 8px;
+        resize: none;
+        font-size: 15px;
+    }
+
+    .enviar{
+        bottom: 30px;
+        margin-top: 20px;
+        width: 500px;
+        height: 60px;
+        border-radius: 5px;
+        border: none;
+        font-size: 18px;
+    }
+
+    .erro{
+        color: red;
+        font-size: 12px;
+        font-weight: 400;
+        margin-left: -400px;    
+        display: none;
+    }
+
+    .irregular{
+        border-color: red;
+    }
+    
+    .regular{
+        border-color: #3CCC87;
+    }
+    
+}
+
+
+@media (max-width: 770px){
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .informacoes{
+        margin: auto;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 24px;
+        font-weight: 900;
+        margin: 15px;
+    }
+    
+    .subtitulo{
+        text-align: center;
+        font-size: 17px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .formulario{
+        margin: 0px auto 10px auto;
+        padding-bottom: 30px;
+        min-width: 580px;
+        height: 656px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+    }
+
+    .padrao{
+        font-size: 15px;
+        width: 500px;
+        height: 45px;
+        padding: 8px;
+    }
+
+    .mensagem{
+        width: 500px;
+        height: 200px;
+        border-radius: 5px;
+        margin-top: 30px;
+        padding: 8px;
+        resize: none;
+        font-size: 15px;
+    }
+
+    .enviar{
+        bottom: 25px;
+        margin-top: 20px;
+        width: 500px;
+        height: 60px;
+        border-radius: 5px;
+        border: none;
+        font-size: 18px;
+    }
+
+    .erro{
+        color: red;
+        font-size: 12px;
+        font-weight: 400;
+        margin-left: -400px;    
+        display: none;
+    }
+
+    .irregular{
+        border-color: red;
+    }
+    
+    .regular{
+        border-color: #3CCC87;
+    }
+    
+}
+
+
+@media (max-width: 425px){
+
+    .informacoes{
+        margin-bottom: -20px;
+     }
+
+    .formulario{
+        margin: 20px auto 10px auto;
+        padding-bottom: 10px;
+        min-width: 370px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .padrao{
+        font-size: 15px;
+        width: 320px;
+        height: 45px;
+        padding: 8px;
+        margin-top: 20px;
+    }
+
+    .mensagem{
+        width: 320px;
+        height: 200px;
+        border-radius: 5px;
+        margin-top: 20px;
+        padding: 8px;
+        resize: none;
+        font-size: 15px;
+    }
+    
+    .orientacao{
+        padding: 10px 0px 10px 20px;
+        font-size: 14px;
+    }
+
+    .enviar{
+        position: absolute;
+        bottom: 25px;
+        margin-top: 20px;
+        width: 300px;
+        height: 50px;
+        border-radius: 5px;
+        border: none;
+        font-size: 18px;
+       
+    }
+
+    .erro{
+        color: red;
+        font-size: 12px;
+        font-weight: 400;
+        margin-left: -220px;    
+        display: none;
+    }
+
+    .irregular{
+        border-color: red;
+    }
+    
+    .regular{
+        border-color: #3CCC87;
+    }
+    
+}
+
+
+@media (max-width: 380px){
+
+    .informacoes{
+       margin-bottom: -20px;
+    }
+
+    .subtitulo{
+        text-align: center;
+        font-size: 17px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .formulario{
+        margin: 20px auto 10px auto;
+        padding-bottom: 10px;
+        min-width: 330px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .padrao{
+        font-size: 15px;
+        width: 300px;
+        height: 45px;
+        padding: 8px;
+        margin-top: 20px;
+    }
+
+    .mensagem{
+        width: 300px;
+        height: 200px;
+        border-radius: 5px;
+        margin-top: 20px;
+        padding: 8px;
+        resize: none;
+        font-size: 15px;
+    }
+
+    .enviar{
+        margin-top: 20px;
+        width: 300px;
+        height: 50px;
+        border-radius: 5px;
+        border: none;
+        font-size: 18px;
+    }
+
+    .erro{
+        color: red;
+        font-size: 12px;
+        font-weight: 400;
+        margin-left: -200px;    
+        display: none;
+    }
+
+    .irregular{
+        border-color: red;
+    }
+    
+    .regular{
+        border-color: #3CCC87;
+    }
+    
+}
+
+
+@media (max-width: 340px){
+
+    .formulario{
+        margin: 20px auto 10px auto;
+        min-width: 300px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .padrao{
+        font-size: 15px;
+        width: 270px;
+        height: 45px;
+        padding: 8px;
+        margin-top: 20px;
+    }
+
+    .mensagem{
+        width: 270px;
+        height: 200px;
+        border-radius: 5px;
+        margin-top: 20px;
+        padding: 8px;
+        resize: none;
+        font-size: 15px;
+    }
+
+    .enviar{
+        bottom: 25px;
+        width: 270px;
+        height: 50px;
+        border-radius: 5px;
+        border: none;
+        font-size: 18px;
+    }
+
+    .erro{
+        color: red;
+        font-size: 12px;
+        font-weight: 400;
+        margin-left: -170px;    
+        display: none;
+    }
+
+    .irregular{
+        border-color: red;
+    }
+    
+    .regular{
+        border-color: #3CCC87;
+    }
+    
+}

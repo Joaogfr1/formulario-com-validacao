@@ -1,0 +1,104 @@
+main{
+    min-height: 100vh;
+    background-image: url(../images/bg-repeat.jpg);
+    background-repeat: repeat-x;
+    background-position: cover;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+.informacoes{
+    margin: 0px 60px 0px 220px;
+    color: #ffffff;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 11px;
+}
+
+.subtitulo{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.formulario{
+    background-color: #ffffff;
+    min-width: 980px;
+    height: 1000px;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.campos-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.padrao{
+    font-size: 18px;
+    width: 900px;
+    height: 60px;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 8px;
+    border: 2px solid black;
+}
+
+.mensagem{
+    width: 900px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 8px;
+    resize: none;
+    font-size: 18px;
+}
+
+.orientacao{
+    padding: 20px 0px 20px 30px;
+    font-size: 20px;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enviar{
+    position: absolute;
+    bottom: 70px;
+    width: 900px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3CCC87;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.erro{
+    color: red;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: -760px;    
+    display: none;
+}
+
+.irregular{
+    border-color: red;
+}
+
+.regular{
+    border-color: #3CCC87;
+}
